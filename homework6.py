@@ -56,6 +56,4 @@ def play():
     if o != 4:
         play()
 
-
-play()
 print("Работа завершена")
