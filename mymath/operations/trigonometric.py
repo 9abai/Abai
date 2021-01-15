@@ -1,11 +1,5 @@
-def sin():
-    a = int(input("Введите первое значение на поиска синуса: "))
-    c = int(input("Введите второе значение на поиска синуса: "))
-    s = a / c
-    print(s)
+def sin(x,z):
+    return x / z
 
-def cos():
-    b = int(input("Введите первое значение на поиска косинуса: "))
-    c = int(input("Введите второе значение на поиска косинуса: "))
-    s = b / c
-    print(s)
+def cos(y,z):
+    return y / z
